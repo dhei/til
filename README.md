@@ -15,6 +15,7 @@ variety of languages and technologies.
 ### MSBuild
 
 - [Whitespace in MSBuild Exec command task](MSBuild/MSBuildExecTaskCommand.md)
+- [MSBuild Reserved Properties](MSBuild/MSBuildReservedProperties.md)
 
 ### CSharp
 
