@@ -13,6 +13,6 @@ MSBuild uses the values in the following table to predefine reserved and well-kn
 | MSBuildProjectDirectory | C:\MyRepository\MyProject               | The absolute path of the directory where the project file is located                                 |
 | MSBuildProjectFile      | sample.csproj                           | The complete file name of the project file, including the file name extension                        |
 
-
+Reference:
 - MSDN link: [MSBuild Reserved and Well-Known Properties](https://msdn.microsoft.com/en-us/library/ms164309.aspx)
 - MSBuild Engine on [GitHub](https://github.com/Microsoft/msbuild)

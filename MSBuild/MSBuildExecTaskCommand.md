@@ -2,6 +2,8 @@
 
 MSBuild [Exec Task](https://msdn.microsoft.com/en-us/library/x8zx72cd.aspx) can run specified program or command with specified arguemnts.
 
+Note that whitespaces are **allowed** in `WorkingDirectory` but not `Command`.
+
 ```XML
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <Target Name="VisualStudioDeveloperCommandPrompt">
@@ -9,3 +11,6 @@ MSBuild [Exec Task](https://msdn.microsoft.com/en-us/library/x8zx72cd.aspx) can 
     </Target>
 </Project>
 ```
+
+Reference:
+- MSBuild [Exec Task](https://msdn.microsoft.com/en-us/library/x8zx72cd.aspx)
