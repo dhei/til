@@ -7,26 +7,26 @@ variety of languages and technologies.
 
 ### Categories
 
-* [CMD](#CMD)
-* [C#](#CSharp)
-* [Git](#Git)
-* [MSBuild](#MSBuild)
-* [PowerShell](#PowerShell)
+* [CMD](#cmd)
+* [C#](#csharp)
+* [Git](#git)
+* [MSBuild](#msbuild)
+* [PowerShell](#powershell)
 
 ---
-### CMD
+#### CMD
 - [Batch Redirection](CMD/CmdRedirection.md)
 - [Useful Paths in batch scripting](CMD/CmdUsefulPaths.md)
 - [Useful Tricks of batch scripting](CMD/CmdUsefulTricks.md)
 
-### CSharp
+#### CSharp
 
-### Git
+#### Git
 
-### MSBuild
+#### MSBuild
 
 - [Whitespace in MSBuild Exec command task](MSBuild/MSBuildExecTaskCommand.md)
 - [MSBuild Reserved Properties](MSBuild/MSBuildReservedProperties.md)
 
-### PowerShell
+#### PowerShell
 
