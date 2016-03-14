@@ -13,19 +13,14 @@ Example: Move repo-a/src as a subdirectory dir-a of repo-b/dest
 4. In repo-b, read content from repo-a and store it under subdirectory dir-a
 5. In repo-b, commit
 
+**Cautions: This solution will lose history of repo-a**
 
     git clone repo-b https://github.com/repo-b-url
     cd repo-b
-
     git remote add -f repo-a https://github.com/repo-a-url
-
     git merge -s ours --no-commit repo-a/src
-
     git read-tree --prefix=dir-a/ -u repo-a/src
-
     git commit -m "Merge project a into project b"
-
-**Cautions: This solution will lose history of repo-a**
 
 Reference:
 
