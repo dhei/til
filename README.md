@@ -15,6 +15,7 @@ variety of languages and technologies.
 
 ---
 #### CMD
+
 - [Batch Redirection](CMD/CmdRedirection.md)
 - [Useful Paths in batch scripting](CMD/CmdUsefulPaths.md)
 - [Useful Tricks of batch scripting](CMD/CmdUsefulTricks.md)
@@ -22,6 +23,8 @@ variety of languages and technologies.
 #### CSharp
 
 #### Git
+
+- [Git Merge Repo](Git/GitMergeRepository.md)
 
 #### MSBuild
 
