@@ -24,8 +24,8 @@ Example: Move repo-a/src as a subdirectory dir-a of repo-b/dest
 
 Reference:
 
-- [Subtree merging and you](http://nuclearsquid.com/writings/subtree-merging-and-you/)
-- Git Documentaion [Subtree Merging](https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging)
+- Markus Prinz: [Subtree merging and you](http://nuclearsquid.com/writings/subtree-merging-and-you/)
+- Git Book: [Subtree Merging](https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging)
 
 ---
 ### Scenario #2
@@ -50,4 +50,4 @@ Example: Move repo-a/src as dir-a and repo-b/dest as dir-b of repo-new
 
 Reference:
 
-- [Merging Two Git Repositories Into One Repository Without Losing File History](http://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
+- Eric Lee: [Merging Two Git Repositories Into One Repository Without Losing File History](http://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
