@@ -10,8 +10,12 @@ variety of languages and technologies.
 * [CMD](#cmd)
 * [C#](#csharp)
 * [Git](#git)
+* [Jekyll](#jekyll)
 * [MSBuild](#msbuild)
+* [Node.js](#nodejs)
+* [Nuget](#nuget)
 * [PowerShell](#powershell)
+
 
 ---
 #### CMD
@@ -26,10 +30,16 @@ variety of languages and technologies.
 
 - [Git Merge Repo](Git/GitMergeRepository.md)
 
+#### Jekyll
+
 #### MSBuild
 
 - [Whitespace in MSBuild Exec command task](MSBuild/MSBuildExecTaskCommand.md)
 - [MSBuild Reserved Properties](MSBuild/MSBuildReservedProperties.md)
+
+#### Nodejs
+
+#### Nuget
 
 #### PowerShell
 
