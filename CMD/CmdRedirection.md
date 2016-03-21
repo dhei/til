@@ -13,7 +13,7 @@ Redirection examples:
 
 It's ok to use spaces in redirection commands. Note however, that a space between an `ECHO` command and a `>` will be redirected too. `DIR>filename.txt` and `DIR > filename.txt` are identical, `ECHO Hello world>filename.txt` and `ECHO Hello world > filename.txt` are not, even though they are both valid.
 
-
+---
 Reference:
 - Rob van der Woude [Redirection](http://www.robvanderwoude.com/redirection.php)
 - Rob van der Woude [Display & Redirect Output](http://www.robvanderwoude.com/battech_redirection.php)

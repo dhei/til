@@ -12,5 +12,6 @@ Note that whitespaces are **allowed** in `WorkingDirectory` but not `Command`.
 </Project>
 ```
 
+---
 Reference:
 - MSBuild [Exec Task](https://msdn.microsoft.com/en-us/library/x8zx72cd.aspx)

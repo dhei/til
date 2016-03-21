@@ -48,6 +48,6 @@ Example: Move repo-a/src as dir-a and repo-b/dest as dir-b of repo-new
 11. Move all files coming from repo-b into dir-b
 12. Commit the move of dir-b
 
+---
 Reference:
-
 - Eric Lee: [Merging Two Git Repositories Into One Repository Without Losing File History](http://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
