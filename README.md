@@ -28,6 +28,7 @@ variety of languages and technologies.
 
 #### Git
 
+- [Deal with Line Ending CRLF in Git](Git/CRLF.md)
 - [Git Merge Repo](Git/GitMergeRepository.md)
 
 #### Jekyll
