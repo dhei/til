@@ -38,6 +38,7 @@ Reference:
 - Git Documentation: [gitattributes](https://git-scm.com/docs/gitattributes)
 - GitHub Documentation: [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings/)
 - StackOverflow: [What's the best CRLF (carriage return, line feed) handling strategy with Git?](http://stackoverflow.com/questions/170961/whats-the-best-crlf-carriage-return-line-feed-handling-strategy-with-git)
+- StackOverflow: [git replacing LF with CRLF](http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf)
 - A nice article on background and history of end of line from Tim Clem: [Mind the End of Your Line](http://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/)
 - A good article on how to deal with this issue from Scott Hanselman: [You're just another carriage return line feed in the wall](http://www.hanselman.com/blog/YoureJustAnotherCarriageReturnLineFeedInTheWall.aspx)
 
