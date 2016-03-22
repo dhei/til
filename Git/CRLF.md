@@ -1,6 +1,10 @@
 # CRLF Line Ending and .gitattributes
 
-Every time you press return on your keyboard you're actually inserting an invisible character called a line ending. Historically, different operating systems have handled line endings differently. Windows uses CRLF while OS X uses LF for line ending. So it's a headache to deal with difference line endings cross-platform.
+Every time you press return on your keyboard you're actually inserting an invisible character called a line ending. Historically, different operating systems have handled line endings differently. So it's a headache to deal with difference line endings cross-platform.
+
+1. Windows uses **CRLF**
+2. Linux uses **LF**
+3. Mac OS X uses **CR**
 
 ### What is `text=auto` in .gitattributes?
 >This ensures that all files that git considers to be text will have normalized (LF) line endings in the repository. The core.eol configuration variable controls which line endings git will use for normalized files in your working directory; the default is to use the native line ending for your platform, or CRLF if core.autocrlf is set.
