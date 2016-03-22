@@ -33,6 +33,8 @@ variety of languages and technologies.
 
 #### Jekyll
 
+- [How to install Jekyll on Windows](Jekyll/InstallJekyllOnWindows.md)
+
 #### MSBuild
 
 - [Whitespace in MSBuild Exec command task](MSBuild/MSBuildExecTaskCommand.md)
