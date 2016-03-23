@@ -7,11 +7,11 @@ You will need chocolatey and ruby to install Jekyll
 
 ### Instructions:
 
-(1) Install chocolatey (on Windows) if you don't already have it
+(1) Install chocolatey (if you don't have chocolatey)
 ```PowerShell
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-(2) Install ruby via chocolatey (on Windows) if you don't already have it
+(2) Install ruby via chocolatey (if you don't have ruby)
 ```
 choco install ruby -y
 ```
@@ -22,7 +22,7 @@ choco install ruby -y
 gem install jekyll
 ```
 
-(5) run this command from your website's directory to serve your website locally and browse it on `http://localhost:4000/`
+(5) run this command from your website's directory to serve your website locally at `http://localhost:4000/`
 ```
 jekyll serve
 ```
