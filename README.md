@@ -34,6 +34,7 @@ variety of languages and technologies.
 #### Jekyll
 
 - [How to install Jekyll on Windows](Jekyll/InstallJekyllOnWindows.md)
+- [Useful Jekyll plugins for GitHub Pages](Jekyll/JekyllPlugins.md)
 
 #### MSBuild
 
