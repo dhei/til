@@ -45,5 +45,7 @@ variety of languages and technologies.
 
 #### Nuget
 
+- [Nuget Automatic Package Restore](Nuget/NugetAutomaticPackageRestore.md)
+
 #### PowerShell
 
