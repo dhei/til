@@ -1,4 +1,4 @@
-# Windows Task Scheduler schetasks.exe
+# Windows Task Scheduler schtasks.exe
 
 (Based on [this](https://support.microsoft.com/en-us/kb/823093) question on support.microsoft.com) 
 
@@ -14,5 +14,5 @@ Corret path that works:
 
 
 References:
-- MSDN Documentation: [Schetasks.exe (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357)
-- SS64 Documentation: [schetasks](http://ss64.com/nt/schtasks.html)
+- MSDN Documentation: [schtasks.exe (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357)
+- SS64 Documentation: [schtasks](http://ss64.com/nt/schtasks.html)
