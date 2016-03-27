@@ -23,6 +23,7 @@ variety of languages and technologies.
 - [Batch Redirection](CMD/CmdRedirection.md)
 - [Useful Paths in batch scripting](CMD/CmdUsefulPaths.md)
 - [Useful Tricks of batch scripting](CMD/CmdUsefulTricks.md)
+- [Windows Task Scheduler schtasks](CMD/Schtasks.md)
 
 #### CSharp
 
