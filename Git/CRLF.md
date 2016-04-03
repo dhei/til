@@ -34,14 +34,22 @@ If you see `fatal: CRLF would be replaced by LF in` to prevent you making commit
 
 ---
 
+### Tips: How to change EOL on multiple files in one go (in NotePad++ on Windows)
+[This](http://i.stack.imgur.com/CkYrB.png) StackOverFlow answer has a neat trick to do this in [NotePad++](https://notepad-plus-plus.org/) easily. Basically use regex `(?<!\r)\n` to replace all **LF** with **CRLF**.
+
+![CRLF](http://i.stack.imgur.com/CkYrB.png)
+
+---
+
 Reference:
 - Git Documentation: [gitattributes](https://git-scm.com/docs/gitattributes)
 - GitHub Documentation: [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings/)
 - StackOverflow: [What's the best CRLF (carriage return, line feed) handling strategy with Git?](http://stackoverflow.com/questions/170961/whats-the-best-crlf-carriage-return-line-feed-handling-strategy-with-git)
 - StackOverflow: [git replacing LF with CRLF](http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf)
+- StackOverflow: [Change EOL on multiple files in one go](http://stackoverflow.com/questions/11341660/change-eol-on-multiple-files-in-one-go)
 - A nice article on background and history of end of line from Tim Clem: [Mind the End of Your Line](http://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/)
 - A good article on how to deal with this issue from Scott Hanselman: [You're just another carriage return line feed in the wall](http://www.hanselman.com/blog/YoureJustAnotherCarriageReturnLineFeedInTheWall.aspx)
 
 
-### *Bonus: xkcd meme on CRLF fatal error from [Luis Toubes](http://toub.es/)*
+### *PS: xkcd meme on CRLF fatal error from [Luis Toubes](http://toub.es/)*
 ![CRLF](http://toub.es/sites/toub.es/files/styles/standard_article/public/field/image/firstcommit.png?itok=gTA9ILOg)
