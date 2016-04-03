@@ -35,7 +35,7 @@ If you see `fatal: CRLF would be replaced by LF in` to prevent you making commit
 ---
 
 ### Tips: How to change EOL on multiple files in one go (in NotePad++ on Windows)
-[This](http://i.stack.imgur.com/CkYrB.png) StackOverFlow answer has a neat trick to do this in [NotePad++](https://notepad-plus-plus.org/) easily. Basically use regex `(?<!\r)\n` to replace all **LF** with **CRLF**.
+[This](http://stackoverflow.com/questions/11341660/change-eol-on-multiple-files-in-one-go/11341759#11341759) StackOverFlow answer has a neat trick to do this in [NotePad++](https://notepad-plus-plus.org/) easily. Basically use regex `(?<!\r)\n` to replace all **LF** with **CRLF**.
 
 ![CRLF](http://i.stack.imgur.com/CkYrB.png)
 
