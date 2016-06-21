@@ -41,6 +41,7 @@ variety of languages and technologies.
 
 - [Whitespace in MSBuild Exec command task](MSBuild/MSBuildExecTaskCommand.md)
 - [MSBuild Reserved Properties](MSBuild/MSBuildReservedProperties.md)
+- [MSBuild Copy Command](MSBuild/MSBuildCopyTaskCommand.md)
 
 #### Nodejs
 
