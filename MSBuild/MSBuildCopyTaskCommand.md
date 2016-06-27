@@ -1,6 +1,7 @@
 # MSBuild Copy Command Recursive Copy
 
-You are not copying a *source folder* to a *destination folder*, but you are copying all the subdirectory and files contained in the source folder to destination folder.
+1. You are not copying a *source folder* to a *destination folder*, but you are copying all the subdirectory and files contained in the source folder to destination folder.
+2. You must use **%(RecursiveDir)** in destination to preserve folder structure
 
 Example:
 
@@ -12,7 +13,7 @@ Example:
     <Target Name="CopyFiles">
         <Copy
             SourceFiles="@(MySourceFiles)"
-            DestinationFiles="@(MySourceFiles->'c:\MyDestinationTree\%(RecursiveDir)%(Filename)%(Extension)')"/>
+            DestinationFiles="c:\MyDestinationTree\%(RecursiveDir)%"/>
     </Target>
 </Project>
 ```
@@ -27,3 +28,4 @@ Set `SkipUnchangedFiles` to `true` in `Copy` command
 
 References:
 - MSDN Documentation: [Copy Task](https://msdn.microsoft.com/en-us/library/3e54c37h.aspx)
+- Stackoverflow [question](http://stackoverflow.com/a/11449407/873234)
