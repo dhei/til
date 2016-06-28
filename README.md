@@ -48,6 +48,7 @@ variety of languages and technologies.
 #### Nuget
 
 - [Nuget Automatic Package Restore](Nuget/NugetAutomaticPackageRestore.md)
+- [Nuget Restore Custom Source](Nuget/NugetRestoreCustomSource.md)
 
 #### PowerShell
 
