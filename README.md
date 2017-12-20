@@ -41,9 +41,9 @@ variety of languages and technologies.
 #### Git
 
 - [CRLF End of Line issue in Git](Git/CRLF.md)
-- [Git Merge Repo](Git/GitMergeRepository.md)
+- [Git Merge Repos](Git/GitMergeRepository.md)
 
-### iOS
+#### iOS
 
 - [How to Setup Charles Proxy on Mac](iOS/SetupCharlesProxy.md)
 - [How to Setup Private CocoaPods Repo](iOS/SetupPrivateCocoaPods.md)
