@@ -13,6 +13,7 @@ variety of languages and technologies.
 * [C#](#csharp)
 * [Git](#git)
 * [iOS](#ios)
+* [JavaScript](#javascript)
 * [Jekyll](#jekyll)
 * [MSBuild](#msbuild)
 * [NPM](#npm)
@@ -48,6 +49,10 @@ variety of languages and technologies.
 
 - [How to Setup Charles Proxy on Mac](iOS/SetupCharlesProxy.md)
 - [How to Setup Private CocoaPods Repo](iOS/SetupPrivateCocoaPods.md)
+
+#### JavaScript
+
+- [Promise Anti-Patterns and Common Mistakes](JavaScript/PromiseAntiPatterns.md)
 
 #### Jekyll
 
