@@ -1,5 +1,7 @@
 # Promise Anti-Patterns and Common Mistakes
 
+This write-up refers **Promises** specifically to [ES2015 Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), but the general rules should also apply to other Promise libraries.
+
 ### Anti-Pattern: Nested Promises ("Promise Hell")
 
 (1) Linearly dependent Promises
