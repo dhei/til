@@ -102,16 +102,19 @@ somethingAsync()
     // handle error
   });
 ```
+It's best practice to add `catch()` to the end of the Promise chain for error handling. See [eslint-plugin-promise rule: catch-or-return](https://github.com/xjamundx/eslint-plugin-promise#rule-catch-or-return) for more examples.
 
-### Common Mistakes: Not Returning in `.then()`
+### Common Mistake: Not Returning in `.then()`
 Inside a `.then(function() { })` function, there are three things can be done:
 1. return another promise
 2. return a synchronous value (or undefined)
 3. throw a synchronous error
 
+It's best practice to always `return` inside `.then()`. See [eslint-plugin-promise rule: always-return](https://github.com/xjamundx/eslint-plugin-promise#rule-always-return) and [We have a problem with promises by Nolan Lawson](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) for more examples.
+
 **Always return or throw from inside a then() function as best practice.**
 
-### Common Mistakes: Passing a non-function to `.then()`
+### Common Mistake: Passing a non-function to `.then()`
 If you accidentally pass a non-function to `.then()`, it actually interprets as `.then(null)` which causes the previous promise's result fall thourgh.
 
 ```javascript
@@ -143,4 +146,5 @@ Reference:
 - [How to escape Promise Hell by Ronald Chen](https://medium.com/@pyrolistical/how-to-get-out-of-promise-hell-8c20e0ab0513)
 - [Promise Anti Patterns - Bluebird Wiki](https://github.com/petkaantonov/bluebird/wiki/Promise-anti-patterns#the-thensuccess-fail-anti-pattern)
 - [We have a problem with promises by Nolan Lawson](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
+- [eslint-plugin-promise by xjamundx](https://github.com/xjamundx/eslint-plugin-promise)
 
