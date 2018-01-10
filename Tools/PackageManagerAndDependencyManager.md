@@ -4,10 +4,10 @@ The key difference is **dependency manager** only manages the dependency but **p
 
 ### JavaScript
 - [npm](https://www.npmjs.com): package manager (distribution included, register at https://register.npmjs.org)
-- [Yarn](https://yarnpkg.com): dependency manager (no distribution; pulls packages from npmjs.com register at https://registry.npmjs.org)
+- [yarn](https://yarnpkg.com): dependency manager (no distribution; pulls packages from npmjs.com register at https://registry.npmjs.org)
 
 ### .NET
-- [NuGet](https://www.nuget.org): package manager (distribution included, package source at https://api.nuget.org/v3/index.json)
+- [nuget](https://www.nuget.org): package manager (distribution included, package source at https://api.nuget.org/v3/index.json)
 
 ### iOS
 - [CocoaPods](https://cocoapods.org): dependency manager (no distribution; pulls packages from `source` of package's `podspec`, commonly from GitHub)
@@ -21,7 +21,7 @@ The key difference is **dependency manager** only manages the dependency but **p
 ### Ruby
 - [RubyGems](https://rubygems.org): package manager (distribution included)
 
-### MacOS
+### macOS
 - [Homebrew](https://brew.sh): package manager (distribution included at http://formulae.brew.sh)
 
 ### Windows
