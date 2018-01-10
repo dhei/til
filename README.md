@@ -19,6 +19,7 @@ variety of languages and technologies.
 * [NPM](#npm)
 * [Nuget](#nuget)
 * [React Native](#react-native)
+* [Tools](#tools)
 
 ---
 #### Android
@@ -49,6 +50,7 @@ variety of languages and technologies.
 
 - [How to Setup Charles Proxy on Mac](iOS/SetupCharlesProxy.md)
 - [How to Setup Private CocoaPods Repo](iOS/SetupPrivateCocoaPods.md)
+- [Notes on iOS Provisioning Profile](iOS/iOSProvisioning.md)
 
 #### JavaScript
 
@@ -77,3 +79,7 @@ variety of languages and technologies.
 #### React Native
 
 - [How to Debug React Native on iOS Device with Chrome Developer Tools](React-Native/DebuggingOniOSDevice.md)
+
+#### Tools
+
+- [Package Manager vs Dependency Manager](Tools/PackageManagerAndDependencyManager.md)
