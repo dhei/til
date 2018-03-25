@@ -83,5 +83,5 @@ variety of languages and technologies.
 #### Tools
 
 - [Package Manager vs Dependency Manager](Tools/PackageManagerAndDependencyManager.md)
-- [Visual Studio Auto Generates C# Equals()](Toos/AutoGeneratesEquals.md)
+- [Visual Studio Auto Generates C# Equals()](Tools/AutoGeneratesEquals.md)
 
