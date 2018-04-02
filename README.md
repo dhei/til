@@ -39,6 +39,7 @@ variety of languages and technologies.
 
 #### CSharp
 
+- [C# Dispose Pattern Example](CSharp/DisposePattern.md)
 - [C# Event Handlers Cheatsheet](CSharp/EventHandler.md)
 
 #### Git
