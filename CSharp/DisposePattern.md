@@ -27,7 +27,7 @@ protected virtual void Dispose(bool disposing)
 ```
 
 Example of dispose pattern for a derived class.
-```
+```C#
 class DerivedClass : BaseClass
 {
     bool disposed = false;
