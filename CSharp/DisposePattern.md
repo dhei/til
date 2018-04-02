@@ -6,10 +6,10 @@ A public non-virtual `IDisposable.Dispose` implementation that has no parameters
 ```C#
 public void Dispose()
 {
-   // Dispose of unmanaged resources.
-   Dispose(true);
-   // Suppress finalization.
-   GC.SuppressFinalize(this);
+    // Dispose of unmanaged resources.
+    Dispose(true);
+    // Suppress finalization.
+    GC.SuppressFinalize(this);
 }
 ```
 
